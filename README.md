@@ -1,94 +1,133 @@
-<h1 align="center">Hi 👋, I'm Ashwin</h1>
+<div align="center">
 
-<h3 align="center">Computer Science Graduate | Full Stack Developer | MERN Learner</h3>
+<img src="./banner.png" width="100%" alt="Ashwin A A Banner"/>
+
+# 👋 Hi, I'm Ashwin A A
+
+### Computer Science Graduate • Full Stack Developer • Building Modern Web & AI Applications
+
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=24&duration=3500&pause=1000&color=00F5FF&center=true&vCenter=true&width=750&lines=Full+Stack+Developer;MERN+Stack+Developer;Exploring+AI+%26+Modern+Web+Technologies;Open+Source+Enthusiast;Always+Learning+Something+New" />
+
+<p>
+<a href="https://www.linkedin.com/in/ashwinaa10/"><img src="https://skillicons.dev/icons?i=linkedin"/></a>
+<a href="https://ashwinaa.vercel.app"><img src="https://skillicons.dev/icons?i=vercel"/></a>
+<a href="mailto:ashwinaa2005@gmail.com"><img src="https://skillicons.dev/icons?i=gmail"/></a>
+<a href="https://github.com/AshwinAA10"><img src="https://skillicons.dev/icons?i=github"/></a>
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=AshwinAA10&style=for-the-badge&color=blueviolet"/>
+
+</div>
+
+---
+
+# 💫 About Me
+
+```yaml
+Name: Ashwin A A
+
+Education:
+  B.Sc Computer Science
+  Bharathiar University
+
+Current Role:
+  Full Stack Developer
+
+Currently:
+  Learning the MERN Stack
+  Contributing to Zenvlo CRM
+
+Interested In:
+  - Full Stack Development
+  - Artificial Intelligence
+  - UI/UX Design
+  - Cloud Technologies
+
+Hobbies:
+  - Football
+  - Trekking
+  - Travelling
+
+Mission:
+  Build software that solves real-world problems.
+```
+
+---
+
+# 🛠 Tech Stack
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ashwinaa10/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="https://ashwinaa.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-  </a>
-  &nbsp;
-  <a href="mailto:ashwinaa2005@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,mysql,python,cpp,figma,git,github,vscode&perline=7"/>
 </p>
 
 ---
 
-## 🚀 About Me
+# 🚀 Featured Projects
 
-- 🎓 B.Sc Computer Science Graduate from Bharathiar University
-- 🌱 Currently learning and building with the MERN Stack
-- 💻 Contributing to Zenvlo CRM
-- 🎯 Interested in Full Stack Development
-- ⚽ Football Player
-- 🧳 Love Travelling & Trekking
-- 🎨 UI/UX Enthusiast using Figma
+| Project | Description | Stack |
+|---|---|---|
+| 📦 StoreMind | Inventory Management System | React, JavaScript |
+| 💊 MediAlert | Healthcare reminder system | MERN |
+| 🌐 World of Surya | Movie streaming website | HTML, CSS, JS |
+| 🔍 Pathfinding Visualizer | Algorithm visualizer | React |
+| 📊 Academic Profile Optimization | SEO-based profile optimization | React, Vite |
 
 ---
 
-## 🛠️ Languages & Tools
+# 📊 GitHub Analytics
 
 <p align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=AshwinAA10&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://streak-stats.demolab.com?user=AshwinAA10&theme=tokyonight&hide_border=true"/>
+</p>
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-
+<p align="center">
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshwinAA10&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
 
-## 💼 Featured Projects
-
-| Project | Description | Tech Stack |
-|----------|-------------|------------|
-| 📦 StoreMind | Inventory Management System developed during internship | React, JavaScript |
-| 🌐 World of Surya | Responsive movie streaming website | HTML, CSS, JavaScript |
-| 💊 MediAlert | Healthcare alert and reminder system | MERN Stack |
-| 🔍 Pathfinding Visualizer | Visual representation of pathfinding algorithms | React, JavaScript |
-| 📊 Academic Profile Optimization System | SEO-based academic profile enhancement project | SEO, Web Technologies |
-
----
-
-## 🔥 GitHub Streak
+# 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=AshwinAA10&theme=tokyonight&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AshwinAA10&theme=tokyo-night&hide_border=true"/>
 </p>
 
 ---
 
-## 📈 Contribution Graph
+# 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AshwinAA10&theme=tokyo-night&hide_border=true" />
+<img src="https://github-profile-trophy.vercel.app/?username=AshwinAA10&theme=tokyonight&no-frame=true&margin-w=15"/>
 </p>
 
 ---
 
-## 👀 Profile Views
+# 🌱 Currently Learning
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AshwinAA10&label=Profile%20Views&color=0e75b6&style=flat" />
-</p>
+- MERN Stack
+- TypeScript
+- AI & LLM Fundamentals
+- System Design
+- Docker
 
 ---
 
-<p align="center">
-  ⭐ From <a href="https://github.com/AshwinAA10">AshwinAA10</a>
-</p>
+# 🎯 Goals for 2026
+
+- Build production-ready full stack applications
+- Contribute more to Open Source
+- Learn AI application development
+- Master backend architecture
+
+---
+
+<div align="center">
+
+### ⭐ Thanks for visiting!
+
+*"Building software that makes life a little easier, one commit at a time."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:6A00FF,100:00F5FF"/>
+
+</div>
