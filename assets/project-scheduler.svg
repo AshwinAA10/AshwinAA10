@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="scheduler-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c121e"/>
+      <stop offset="60%" stop-color="#080c14"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+
+    <linearGradient id="scheduler-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.7"/>
+      <stop offset="30%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <radialGradient id="scheduler-glow" cx="10%" cy="10%" r="40%">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="sched-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="918" height="188" rx="12" fill="url(#scheduler-bg)" stroke="url(#scheduler-border)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="916" height="186" rx="11" fill="url(#sched-grid)"/>
+  <rect x="2" y="2" width="916" height="186" rx="11" fill="url(#scheduler-glow)"/>
+
+  <!-- Left Accent Stripe -->
+  <rect x="1" y="1" width="4" height="188" rx="2" fill="#22c55e"/>
+
+  <!-- Top Metadata Bar -->
+  <g transform="translate(28, 20)">
+    <!-- Domain Badge -->
+    <rect x="0" y="0" width="138" height="22" rx="4" fill="#052e16" stroke="#15803d" stroke-width="1"/>
+    <text x="69" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#4ade80" letter-spacing="1">REAL-TIME SYSTEM</text>
+
+    <!-- Sub-tag -->
+    <rect x="146" y="0" width="170" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="231" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="0.5">SOCKET.IO DISPATCH</text>
+
+    <!-- Project Identifier (Right) -->
+    <text x="864" y="15" text-anchor="end" class="mono" font-size="10.5" fill="#64748b" letter-spacing="1">EVENT-DRIVEN SCHEDULING</text>
+  </g>
+
+  <!-- Title & Description -->
+  <g transform="translate(28, 56)">
+    <text x="0" y="26" class="sans" font-size="26" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">PersonalScheduler</text>
+    <text x="0" y="52" class="sans" font-size="14" font-weight="500" fill="#cbd5e1">
+      Automated scheduling and notification system engineered with real-time WhatsApp dispatch integration.
+    </text>
+    <text x="0" y="72" class="sans" font-size="13" font-weight="400" fill="#94a3b8">
+      Built on persistent Socket.IO event channels for immediate message queuing and task triggering.
+    </text>
+  </g>
+
+  <!-- Tech Stack Pills -->
+  <g transform="translate(28, 142)">
+    <!-- Node.js -->
+    <rect x="0" y="0" width="80" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="40" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#22c55e">Node.js</text>
+
+    <!-- Socket.IO -->
+    <rect x="88" y="0" width="94" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="135" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#f8fafc">Socket.IO</text>
+
+    <!-- WhatsApp Integration -->
+    <rect x="190" y="0" width="168" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="274" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#86efac">WhatsApp Integration</text>
+
+    <!-- Event Queues -->
+    <rect x="366" y="0" width="118" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="425" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#94a3b8">Event-Driven</text>
+  </g>
+
+  <!-- Visual Node Graphic on Right -->
+  <g transform="translate(700, 48)">
+    <rect x="0" y="0" width="190" height="110" rx="8" fill="#080c14" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Timeline / Socket Stream Graphic -->
+    <circle cx="28" cy="38" r="6" fill="#22c55e"/>
+    <circle cx="28" cy="38" r="10" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.4"/>
+    <line x1="38" y1="38" x2="88" y2="38" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="3,3"/>
+    
+    <rect x="88" y="24" width="76" height="28" rx="4" fill="#0f172a" stroke="#22c55e" stroke-width="1"/>
+    <text x="126" y="42" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#4ade80">DISPATCH</text>
+
+    <line x1="126" y1="52" x2="126" y2="70" stroke="#64748b" stroke-width="1"/>
+    <rect x="66" y="70" width="112" height="26" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="122" y="87" text-anchor="middle" class="mono" font-size="9" fill="#94a3b8">WHATSAPP NOTIFY</text>
+  </g>
+</svg>

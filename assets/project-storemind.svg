@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="storemind-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1320"/>
+      <stop offset="60%" stop-color="#080c14"/>
+      <stop offset="100%" stop-color="#05080d"/>
+    </linearGradient>
+
+    <linearGradient id="storemind-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.75"/>
+      <stop offset="35%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <radialGradient id="storemind-glow" cx="10%" cy="10%" r="40%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="store-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="918" height="188" rx="12" fill="url(#storemind-bg)" stroke="url(#storemind-border)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="916" height="186" rx="11" fill="url(#store-grid)"/>
+  <rect x="2" y="2" width="916" height="186" rx="11" fill="url(#storemind-glow)"/>
+
+  <!-- Left Accent Stripe -->
+  <rect x="1" y="1" width="4" height="188" rx="2" fill="#38bdf8"/>
+
+  <!-- Top Metadata Bar -->
+  <g transform="translate(28, 20)">
+    <!-- Domain Badge -->
+    <rect x="0" y="0" width="154" height="22" rx="4" fill="#082f49" stroke="#0284c7" stroke-width="1"/>
+    <text x="77" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#38bdf8" letter-spacing="1">INVENTORY SYSTEM</text>
+
+    <!-- Sub-tag -->
+    <rect x="162" y="0" width="168" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="246" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="0.5">STOCK INTELLIGENCE</text>
+
+    <!-- Architecture Status Tag (Right) -->
+    <text x="864" y="15" text-anchor="end" class="mono" font-size="10.5" fill="#38bdf8" letter-spacing="1">REACT.JS // CLIENT STATE</text>
+  </g>
+
+  <!-- Title & Description -->
+  <g transform="translate(28, 56)">
+    <text x="0" y="26" class="sans" font-size="26" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">StoreMind</text>
+    <text x="0" y="52" class="sans" font-size="14" font-weight="500" fill="#cbd5e1">
+      Inventory management platform designed for accurate real-time stock tracking, categorization, and replenishment auditing.
+    </text>
+    <text x="0" y="72" class="sans" font-size="13" font-weight="400" fill="#94a3b8">
+      Built with a clean component hierarchy in React and reactive JavaScript state flows for seamless warehouse workflows.
+    </text>
+  </g>
+
+  <!-- Tech Stack Pills -->
+  <g transform="translate(28, 142)">
+    <!-- React -->
+    <rect x="0" y="0" width="68" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="34" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#38bdf8">React</text>
+
+    <!-- JavaScript -->
+    <rect x="76" y="0" width="102" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="127" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#facc15">JavaScript</text>
+
+    <!-- State Architecture -->
+    <rect x="186" y="0" width="144" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="258" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#93c5fd">State Architecture</text>
+
+    <!-- UI/UX Systems -->
+    <rect x="338" y="0" width="124" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="400" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#94a3b8">Modular UI</text>
+  </g>
+
+  <!-- Visual Inventory Stock Graphic on Right -->
+  <g transform="translate(690, 48)">
+    <rect x="0" y="0" width="200" height="110" rx="8" fill="#080c14" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Stock Metric Bars -->
+    <g transform="translate(16, 18)">
+      <text x="0" y="10" class="mono" font-size="9" fill="#94a3b8">SKU TRACKING</text>
+      <text x="168" y="10" text-anchor="end" class="mono" font-size="9" font-weight="700" fill="#38bdf8">98.4%</text>
+      <rect x="0" y="16" width="168" height="6" rx="3" fill="#1e293b"/>
+      <rect x="0" y="16" width="140" height="6" rx="3" fill="#38bdf8"/>
+    </g>
+
+    <g transform="translate(16, 52)">
+      <text x="0" y="10" class="mono" font-size="9" fill="#94a3b8">AUDIT VELOCITY</text>
+      <text x="168" y="10" text-anchor="end" class="mono" font-size="9" font-weight="700" fill="#34d399">SYNCED</text>
+      <rect x="0" y="16" width="168" height="6" rx="3" fill="#1e293b"/>
+      <rect x="0" y="16" width="168" height="6" rx="3" fill="#34d399"/>
+    </g>
+
+    <line x1="16" y1="88" x2="184" y2="88" stroke="#1e293b" stroke-width="1"/>
+    <text x="100" y="101" text-anchor="middle" class="mono" font-size="8" fill="#64748b">REORDER TRIGGER: OPTIMAL</text>
+  </g>
+</svg>
