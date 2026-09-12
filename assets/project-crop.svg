@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="crop-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e111d"/>
+      <stop offset="60%" stop-color="#090b14"/>
+      <stop offset="100%" stop-color="#05060b"/>
+    </linearGradient>
+
+    <linearGradient id="crop-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.75"/>
+      <stop offset="35%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <radialGradient id="crop-glow" cx="10%" cy="10%" r="40%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="crop-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="918" height="188" rx="12" fill="url(#crop-bg)" stroke="url(#crop-border)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="916" height="186" rx="11" fill="url(#crop-grid)"/>
+  <rect x="2" y="2" width="916" height="186" rx="11" fill="url(#crop-glow)"/>
+
+  <!-- Left Accent Stripe -->
+  <rect x="1" y="1" width="4" height="188" rx="2" fill="#a855f7"/>
+
+  <!-- Top Metadata Bar -->
+  <g transform="translate(28, 20)">
+    <!-- Domain Badge -->
+    <rect x="0" y="0" width="138" height="22" rx="4" fill="#3b0764" stroke="#7e22ce" stroke-width="1"/>
+    <text x="69" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#c084fc" letter-spacing="1">APPLIED AI PIPELINE</text>
+
+    <!-- Sub-tag -->
+    <rect x="146" y="0" width="180" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="236" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="0.5">AGRITECH INTELLIGENCE</text>
+
+    <!-- Architecture Status Tag (Right) -->
+    <text x="864" y="15" text-anchor="end" class="mono" font-size="10.5" fill="#c084fc" letter-spacing="1">PYTHON // GEMINI MULTIMODAL</text>
+  </g>
+
+  <!-- Title & Description -->
+  <g transform="translate(28, 56)">
+    <text x="0" y="26" class="sans" font-size="26" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">Crop Advisory</text>
+    <text x="0" y="52" class="sans" font-size="14" font-weight="500" fill="#cbd5e1">
+      Domain-specific agricultural intelligence tool delivering tailored farming recommendations and diagnostic guidance.
+    </text>
+    <text x="0" y="72" class="sans" font-size="13" font-weight="400" fill="#94a3b8">
+      Engineered with Python backend logic interfacing Google's Gemini API for prompt-driven agronomic synthesis.
+    </text>
+  </g>
+
+  <!-- Tech Stack Pills -->
+  <g transform="translate(28, 142)">
+    <!-- Python -->
+    <rect x="0" y="0" width="76" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="38" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#fbbf24">Python</text>
+
+    <!-- Google Gemini API -->
+    <rect x="84" y="0" width="144" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="156" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#c084fc">Google Gemini API</text>
+
+    <!-- Prompt Engineering -->
+    <rect x="236" y="0" width="156" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="314" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#93c5fd">Prompt Engineering</text>
+
+    <!-- Domain Synthesis -->
+    <rect x="400" y="0" width="124" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="462" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#94a3b8">Data Synthesis</text>
+  </g>
+
+  <!-- Visual AI Diagram Graphic on Right -->
+  <g transform="translate(690, 46)">
+    <rect x="0" y="0" width="200" height="114" rx="8" fill="#080c14" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Input Parameters Node -->
+    <rect x="14" y="20" width="60" height="26" rx="4" fill="#0f172a" stroke="#fbbf24" stroke-width="1"/>
+    <text x="44" y="37" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#fbbf24">CROP DATA</text>
+
+    <line x1="74" y1="33" x2="98" y2="33" stroke="#a855f7" stroke-width="1" stroke-dasharray="2,2"/>
+
+    <!-- Gemini Engine Node -->
+    <rect x="98" y="16" width="88" height="34" rx="4" fill="#0f172a" stroke="#a855f7" stroke-width="1"/>
+    <text x="142" y="32" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#c084fc">GEMINI API</text>
+    <text x="142" y="44" text-anchor="middle" class="mono" font-size="7.5" fill="#94a3b8">LLM INFERENCE</text>
+
+    <path d="M 142 50 L 142 70" stroke="#a855f7" stroke-width="1"/>
+
+    <!-- Output Synthesis Node -->
+    <rect x="40" y="70" width="146" height="28" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="113" y="88" text-anchor="middle" class="mono" font-size="8.5" fill="#34d399">ADVISORY REPORT SYNTHESIS</text>
+  </g>
+</svg>

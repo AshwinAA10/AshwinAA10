@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="medialert-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c141d"/>
+      <stop offset="60%" stop-color="#080c14"/>
+      <stop offset="100%" stop-color="#05080c"/>
+    </linearGradient>
+
+    <linearGradient id="medialert-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.75"/>
+      <stop offset="35%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <radialGradient id="medialert-glow" cx="10%" cy="10%" r="40%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="med-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="918" height="188" rx="12" fill="url(#medialert-bg)" stroke="url(#medialert-border)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="916" height="186" rx="11" fill="url(#med-grid)"/>
+  <rect x="2" y="2" width="916" height="186" rx="11" fill="url(#medialert-glow)"/>
+
+  <!-- Left Accent Stripe -->
+  <rect x="1" y="1" width="4" height="188" rx="2" fill="#06b6d4"/>
+
+  <!-- Top Metadata Bar -->
+  <g transform="translate(28, 20)">
+    <!-- Domain Badge -->
+    <rect x="0" y="0" width="168" height="22" rx="4" fill="#083344" stroke="#0891b2" stroke-width="1"/>
+    <text x="84" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#22d3ee" letter-spacing="1">HEALTHCARE PLATFORM</text>
+
+    <!-- Sub-tag -->
+    <rect x="176" y="0" width="160" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="256" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="0.5">MERN ARCHITECTURE</text>
+
+    <!-- Architecture Status Tag (Right) -->
+    <text x="864" y="15" text-anchor="end" class="mono" font-size="10.5" fill="#22d3ee" letter-spacing="1">PATIENT ADHERENCE CYCLE</text>
+  </g>
+
+  <!-- Title & Description -->
+  <g transform="translate(28, 56)">
+    <text x="0" y="26" class="sans" font-size="26" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">MediAlert</text>
+    <text x="0" y="52" class="sans" font-size="14" font-weight="500" fill="#cbd5e1">
+      Intelligent healthcare reminder and regimen adherence platform built across the full MERN ecosystem.
+    </text>
+    <text x="0" y="72" class="sans" font-size="13" font-weight="400" fill="#94a3b8">
+      Featuring scheduled alert routines, MongoDB document storage, and Express API routing for reliable medical logging.
+    </text>
+  </g>
+
+  <!-- Tech Stack Pills -->
+  <g transform="translate(28, 142)">
+    <!-- MongoDB -->
+    <rect x="0" y="0" width="86" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="43" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#4ade80">MongoDB</text>
+
+    <!-- Express.js -->
+    <rect x="94" y="0" width="94" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="141" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#cbd5e1">Express.js</text>
+
+    <!-- React -->
+    <rect x="196" y="0" width="68" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="230" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#38bdf8">React</text>
+
+    <!-- Node.js -->
+    <rect x="272" y="0" width="80" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="312" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#22c55e">Node.js</text>
+
+    <!-- Alert Engine -->
+    <rect x="360" y="0" width="118" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="419" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#94a3b8">Alert Dispatch</text>
+  </g>
+
+  <!-- Visual Medical Cadence Graphic on Right -->
+  <g transform="translate(690, 48)">
+    <rect x="0" y="0" width="200" height="110" rx="8" fill="#080c14" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Heartbeat / Cadence Wave -->
+    <path d="M 20 60 L 50 60 L 60 40 L 70 80 L 80 50 L 90 65 L 100 60 L 180 60" fill="none" stroke="#06b6d4" stroke-width="2"/>
+    
+    <!-- Alert Node -->
+    <circle cx="140" cy="30" r="5" fill="#f43f5e"/>
+    <circle cx="140" cy="30" r="9" fill="none" stroke="#f43f5e" stroke-width="1" opacity="0.5"/>
+    <text x="154" y="34" class="mono" font-size="9" font-weight="700" fill="#f43f5e">DISPATCH: ON TIME</text>
+    
+    <text x="100" y="96" text-anchor="middle" class="mono" font-size="8" fill="#64748b">DOSAGE COMPLIANCE CYCLE</text>
+  </g>
+</svg>

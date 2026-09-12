@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 28" width="100%" height="100%">
+  <defs>
+    <linearGradient id="divider-left" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="divider-right" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left line -->
+  <line x1="20" y1="14" x2="435" y2="14" stroke="url(#divider-left)" stroke-width="1"/>
+  <circle cx="435" cy="14" r="2" fill="#38bdf8" fill-opacity="0.6"/>
+
+  <!-- Center Emblem -->
+  <g transform="translate(460, 14)">
+    <rect x="-12" y="-12" width="24" height="24" rx="4" fill="#090d16" stroke="#1e293b" stroke-width="1"/>
+    <!-- Diamond Core -->
+    <rect x="-4" y="-4" width="8" height="8" rx="1.5" transform="rotate(45)" fill="#38bdf8" fill-opacity="0.8"/>
+    <!-- Micro Dots -->
+    <circle cx="-18" cy="0" r="1" fill="#38bdf8" fill-opacity="0.4"/>
+    <circle cx="18" cy="0" r="1" fill="#38bdf8" fill-opacity="0.4"/>
+  </g>
+
+  <!-- Right line -->
+  <circle cx="485" cy="14" r="2" fill="#38bdf8" fill-opacity="0.6"/>
+  <line x1="485" y1="14" x2="900" y2="14" stroke="url(#divider-right)" stroke-width="1"/>
+</svg>
