@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Ashwin A A — Full-Stack Engineer & Systems Builder" width="100%" />
+<img src="./assets/hero.svg" alt="Ashwin A A - Full-Stack Engineer & Systems Builder" width="100%" />
 
 <p align="center">
   <a href="https://ashwinaa.vercel.app"><b>PORTFOLIO</b></a> &nbsp;·&nbsp;
@@ -21,7 +21,7 @@ A curated index of production applications, real-time systems, and applied AI to
 
 <!-- Flagship: Zenvlo CRM -->
 <a href="https://github.com/AshwinAA10">
-  <img src="./assets/project-zenvlo.svg" alt="Zenvlo CRM — Flagship Build" width="100%" />
+  <img src="./assets/project-zenvlo.svg" alt="Zenvlo CRM - Flagship Build" width="100%" />
 </a>
 
 <br/>
@@ -29,7 +29,7 @@ A curated index of production applications, real-time systems, and applied AI to
 
 <!-- PersonalScheduler -->
 <a href="https://github.com/AshwinAA10/PersonalScheduler">
-  <img src="./assets/project-scheduler.svg" alt="PersonalScheduler — Real-time WhatsApp Notification System" width="100%" />
+  <img src="./assets/project-scheduler.svg" alt="PersonalScheduler - Real-time WhatsApp Notification System" width="100%" />
 </a>
 
 <br/>
@@ -37,7 +37,7 @@ A curated index of production applications, real-time systems, and applied AI to
 
 <!-- Crop Advisory -->
 <a href="https://github.com/AshwinAA10/crop_advisory">
-  <img src="./assets/project-crop.svg" alt="Crop Advisory — Python & Gemini AI Agricultural Intelligence" width="100%" />
+  <img src="./assets/project-crop.svg" alt="Crop Advisory - Python & Gemini AI Agricultural Intelligence" width="100%" />
 </a>
 
 <br/>
@@ -45,7 +45,7 @@ A curated index of production applications, real-time systems, and applied AI to
 
 <!-- StoreMind -->
 <a href="https://github.com/AshwinAA10/StoreMind">
-  <img src="./assets/project-storemind.svg" alt="StoreMind — Inventory Management System" width="100%" />
+  <img src="./assets/project-storemind.svg" alt="StoreMind - Inventory Management System" width="100%" />
 </a>
 
 <br/>
@@ -53,7 +53,7 @@ A curated index of production applications, real-time systems, and applied AI to
 
 <!-- MediAlert -->
 <a href="https://github.com/AshwinAA10/MediAlert">
-  <img src="./assets/project-medialert.svg" alt="MediAlert — Healthcare Reminder System" width="100%" />
+  <img src="./assets/project-medialert.svg" alt="MediAlert - Healthcare Reminder System" width="100%" />
 </a>
 
 <br/>
@@ -69,7 +69,7 @@ Technologies organized by runtime tier and actual application implementation. Da
 <br/>
 
 <div align="center">
-  <img src="./assets/stack.svg" alt="Ashwin A A — Engineering Stack & Architecture" width="100%" />
+  <img src="./assets/stack.svg" alt="Ashwin A A - Engineering Stack & Architecture" width="100%" />
 </div>
 
 <br/>
@@ -90,7 +90,7 @@ WHAT I HAVE BUILT
 WHAT I AM ACTIVELY LEARNING
 ├── System Design & High-Throughput Backend Architecture (going beyond basic CRUD)
 ├── Dockerized microservices & production deployment reliability
-└── Applied AI Engineering — building robust retrieval & context pipelines, not just API wrappers
+└── Applied AI Engineering - building robust retrieval & context pipelines, not just API wrappers
 
 WHAT I AM TARGETING NEXT
 ├── Shipping an end-to-end, production-grade full-stack platform independently
@@ -105,15 +105,15 @@ WHAT I AM TARGETING NEXT
 
 Compact overview of academic grounding, professional certifications, and industry research:
 
-- **B.Sc Computer Science** — Bharathiar University *(CGPA 7.2)*
-- **Full Stack Development (MERN)** — Amypo Technologies
-- **Google Data Analytics** — Professional Certificate
-- **AWS Cloud Technical Essentials** — Specialization
-- **Oracle Cloud Databases** — Certified Specialist
-- **MongoDB Certifications** — Associate Developer
-- **UI/UX Design Specialization** — California Institute of the Arts (Coursera)
-- **IRJET Published Research** — Published academic paper on SEO & profile optimization architectures
-- **Industry Internship** — Seasana Industries / Machinery
+- **B.Sc Computer Science** - Bharathiar University (CGPA 7.2)
+- **Full Stack Development (MERN)** - Amypo Technologies
+- **Google Data Analytics** - Professional Certificate
+- **AWS Cloud Technical Essentials** - Specialization
+- **Oracle Cloud Databases** - Certified Specialist
+- **MongoDB Certifications** - Associate Developer
+- **UI/UX Design Specialization** - California Institute of the Arts (Coursera)
+- **IRJET Published Research** - Published academic paper on SEO & profile optimization architectures
+- **Industry Internship** - Seasana Industries / Machinery
 
 <div align="center">
   <img src="./assets/divider.svg" alt="Divider" width="100%" />
@@ -122,9 +122,9 @@ Compact overview of academic grounding, professional certifications, and industr
 ### 05 // OUTSIDE THE CODEBASE
 
 When I'm away from the terminal:
-- **Football** — Fast-paced tactical play, teamwork, and quick decision-making under pressure.
-- **Trekking** — Exploring mountain trails, testing endurance, and finding mental clarity.
-- **Travelling** — Experiencing unfamiliar terrain, regional cultures, and different perspectives.
+- **Football** - Fast-paced tactical play, teamwork, and quick decision-making under pressure.
+- **Trekking** - Exploring mountain trails, testing endurance, and finding mental clarity.
+- **Travelling** - Experiencing unfamiliar terrain, regional cultures, and different perspectives.
 
 > *"I would rather ship a compact, reliable system that works than get lost in endless blueprints for one that never launches. The craft is in turning intention into running software."*
 
@@ -133,5 +133,5 @@ When I'm away from the terminal:
 </div>
 
 <div align="center">
-  <img src="./assets/footer.svg" alt="Ashwin A A — Footer" width="100%" />
+  <img src="./assets/footer.svg" alt="Ashwin A A - Footer" width="100%" />
 </div>
