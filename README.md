@@ -1,103 +1,140 @@
-<img src="./profile-card.svg" width="100%" alt="Ashwin A A — profile.ts"/>
+<div align="center">
 
-<p align="left">
-  <a href="https://ashwinaa.vercel.app">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/ashwinaa10/">LinkedIn</a> ·
-  <a href="mailto:ashwinaa2005@gmail.com">Email</a>
+<img src="./assets/hero.svg" alt="Ashwin A A — Full-Stack Engineer &amp; Systems Builder" width="100%" />
+
+<p align="center">
+  <a href="https://ashwinaa.vercel.app"><b>PORTFOLIO</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/ashwinaa10/"><b>LINKEDIN</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/AshwinAA10"><b>GITHUB</b></a> &nbsp;·&nbsp;
+  <a href="mailto:ashwinaa2005@gmail.com"><b>EMAIL DIRECT</b></a>
 </p>
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
-### `$ git log --oneline --graph`
+</div>
+
+### 01 // SELECTED BUILDS
+
+A curated index of full-stack web applications, real-time dispatch systems, and applied AI tools built to solve concrete operational problems.
+
+<br/>
+
+<!-- Flagship: Zenvlo CRM -->
+<a href="https://github.com/AshwinAA10">
+  <img src="./assets/project-zenvlo.svg" alt="Zenvlo CRM — Flagship full-stack project card" width="100%" />
+</a>
+
+<br/>
+
+<!-- PersonalScheduler -->
+<a href="https://github.com/AshwinAA10/PersonalScheduler">
+  <img src="./assets/project-scheduler.svg" alt="PersonalScheduler — Real-time WhatsApp notification system project card" width="100%" />
+</a>
+
+<br/>
+
+<!-- Crop Advisory -->
+<a href="https://github.com/AshwinAA10/crop_advisory">
+  <img src="./assets/project-crop.svg" alt="Crop Advisory — Python and Gemini AI agricultural intelligence project card" width="100%" />
+</a>
+
+<br/>
+
+<!-- StoreMind -->
+<a href="https://github.com/AshwinAA10/StoreMind">
+  <img src="./assets/project-storemind.svg" alt="StoreMind — Inventory management platform project card" width="100%" />
+</a>
+
+<br/>
+
+<!-- MediAlert -->
+<a href="https://github.com/AshwinAA10/MediAlert">
+  <img src="./assets/project-medialert.svg" alt="MediAlert — Healthcare regimen reminder system project card" width="100%" />
+</a>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</div>
+
+### 02 // SYSTEM ARCHITECTURE & TECHNICAL STACK
+
+Technologies organized by runtime tier and actual application implementation. Daily drivers represent active production stacks; horizon technologies represent ongoing engineering depth.
+
+<br/>
+
+<div align="center">
+  <img src="./assets/stack.svg" alt="Ashwin A A — Technical stack and architecture blueprint" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</div>
+
+### 03 // TRAJECTORY & CURRENT FOCUS
 
 ```
-* 7f3a2c1 (HEAD -> main, founder) Zenvlo CRM
-|         React · TypeScript · NestJS · PostgreSQL · Prisma
-|         Most technically ambitious build so far — founder & full-stack dev.
-|
-* 9d1e04a PersonalScheduler
-|         Real-time WhatsApp scheduling, built on Socket.IO.
-|
-* 4b7c88f crop_advisory
-|         Python + Gemini API — advisory tool for agricultural use cases.
-|
-* 1a90bde StoreMind
-|         Inventory management system. React + JavaScript.
-|
-* 6c2f1de MediAlert
-|         Healthcare reminder system, full MERN stack.
-|
-* e5d0aa1 MovieMate-AI · World of Surya · pathfinding-visualizer
-|         Recommendation engine, streaming UI, and a pathfinding algo
-|         visualizer — three different ways of learning three different
-|         things.
+WHAT I HAVE BUILT
+├── Full-stack web platforms with relational & document databases (PostgreSQL, MongoDB)
+├── Modular API backends with NestJS and Express
+├── Real-time event architectures using Socket.IO
+└── Multimodal LLM integration pipelines (Gemini API + Python)
+
+WHAT I AM ACTIVELY LEARNING
+├── System Design & High-Throughput Backend Architecture (going beyond basic CRUD)
+├── Dockerized microservices & production deployment reliability
+└── Applied AI Engineering — building robust retrieval & context pipelines, not just API wrappers
+
+WHAT I AM TARGETING NEXT
+├── Shipping an end-to-end, production-grade full-stack platform independently
+└── Meaningful contributions to production open-source software (merged PRs, real utility)
 ```
 
----
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</div>
 
-### `$ cat stack.lock`
+### 04 // EDUCATION & CREDENTIALS
 
-```yaml
-core:
-  - MongoDB / Express.js / React.js / Node.js   # daily driver
-  - TypeScript
-  - NestJS
-  - PostgreSQL + Prisma
-deploy:
-  - Vercel  # React / Next.js
-learning:
-  - Docker
-  - System Design
-  - AI & LLM fundamentals
-```
+Compact overview of academic grounding, professional certifications, and industry research:
 
-No icon grid — if you want to know what I actually reach for, that's it.
+- **B.Sc Computer Science** — Bharathiar University *(CGPA 7.2)*
+- **Full Stack Development (MERN)** — Amypo Technologies
+- **Google Data Analytics** — Professional Certificate
+- **AWS Cloud Technical Essentials** — Specialization
+- **Oracle Cloud Databases** — Certified Specialist
+- **MongoDB Certifications** — Associate Developer
+- **UI/UX Design Specialization** — California Institute of the Arts (Coursera)
+- **IRJET Published Research** — Published academic paper on SEO & profile optimization architectures
+- **Industry Internship** — Seasana Industries / Machinery
 
----
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</div>
 
-### `$ cat credentials.log`
+### 05 // OUTSIDE THE CODEBASE
 
-```
-[✓] B.Sc Computer Science — Bharathiar University (CGPA 7.2)
-[✓] Full Stack Development, MERN — Amypo Technologies
-[✓] Google Data Analytics Professional Certificate
-[✓] AWS Cloud Technical Essentials Specialization
-[✓] Oracle Cloud Databases Certification
-[✓] MongoDB Certifications
-[✓] UI/UX Design Specialization — CalArts (Coursera)
-[✓] IRJET research paper — published, SEO
-[i] Internship — Seasana Industries/Machinery
-```
+When I'm away from the terminal:
+- **Football** — Fast-paced tactical play, teamwork, and quick decision-making under pressure.
+- **Trekking** — Exploring mountain trails, testing endurance, and finding mental clarity.
+- **Travelling** — Experiencing unfamiliar terrain, regional cultures, and different perspectives.
 
----
+> *"I would rather ship a compact, reliable system that works than get lost in endless blueprints for one that never launches. The craft is in turning intention into running software."*
 
-### `$ cat TODO.md`
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="100%" />
+</div>
 
-```
-2026 GOALS
-[ ] Ship a production-ready full-stack app, start to finish, alone
-[ ] Contribute to open source — actually merged, not just forked
-[ ] Learn AI application development, not just call an API and call it done
-[ ] Master backend architecture — go deeper than "it works"
-```
+<div align="center">
+  <img src="./assets/footer.svg" alt="Ashwin A A — Developer directory and contact interface" width="100%" />
 
----
-
-### `$ cat about.yaml`
-
-```yaml
-outside_of_code:
-  - Football
-  - Trekking
-  - Travelling
-philosophy: >
-  I'd rather ship something small that works than plan something
-  large that doesn't. Currently trying to get better at the reverse
-  of that too.
-```
-
----
-
-<p align="left"><sub>
-Last edited by hand, not by a badge generator. If you're reading this on GitHub, the code blocks above are the whole design — no external image dependencies, nothing that breaks when a third-party stats API goes down.
-</sub></p>
+  <p align="center">
+    <a href="https://ashwinaa.vercel.app"><b>Portfolio</b></a> &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/ashwinaa10/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+    <a href="https://github.com/AshwinAA10"><b>GitHub</b></a> &nbsp;·&nbsp;
+    <a href="mailto:ashwinaa2005@gmail.com"><b>Email Direct</b></a>
+  </p>
+</div>

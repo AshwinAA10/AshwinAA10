@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 390" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stack-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1018"/>
+      <stop offset="60%" stop-color="#080c13"/>
+      <stop offset="100%" stop-color="#05080c"/>
+    </linearGradient>
+
+    <linearGradient id="stack-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <pattern id="stack-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+
+    <radialGradient id="stack-glow" cx="20%" cy="15%" r="45%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="918" height="388" rx="14" fill="url(#stack-bg)" stroke="url(#stack-border)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="916" height="386" rx="13" fill="url(#stack-grid)"/>
+  <rect x="2" y="2" width="916" height="386" rx="13" fill="url(#stack-glow)"/>
+
+  <!-- Top Title Bar -->
+  <g transform="translate(28, 22)">
+    <rect x="0" y="0" width="10" height="10" rx="3" fill="#0284c7"/>
+    <text x="20" y="10" class="mono" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="1.5">SYSTEM ARCHITECTURE // TECHNICAL STACK</text>
+    <text x="864" y="10" text-anchor="end" class="mono" font-size="10.5" fill="#64748b" letter-spacing="1">TIER-BASED SPECIALIZATION</text>
+    <line x1="0" y1="22" x2="864" y2="22" stroke="#1e293b" stroke-width="1"/>
+  </g>
+
+  <!-- Tier 01: Client & Interface -->
+  <g transform="translate(28, 62)">
+    <!-- Label -->
+    <rect x="0" y="4" width="176" height="24" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="12" y="20" class="mono" font-size="10.5" font-weight="700" fill="#38bdf8">01 // CLIENT &amp; UI</text>
+
+    <!-- Context Badge -->
+    <rect x="184" y="4" width="112" height="24" rx="4" fill="#0c4a6e" stroke="#0284c7" stroke-width="1"/>
+    <text x="240" y="20" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#7dd3fc">DAILY DRIVER</text>
+
+    <!-- Tech Pills -->
+    <g transform="translate(310, 3)">
+      <rect x="0" y="0" width="66" height="26" rx="5" fill="#082f49" stroke="#0284c7" stroke-width="1"/>
+      <text x="33" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#38bdf8">React</text>
+
+      <rect x="74" y="0" width="104" height="26" rx="5" fill="#082f49" stroke="#0284c7" stroke-width="1"/>
+      <text x="126" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#60a5fa">TypeScript</text>
+
+      <rect x="186" y="0" width="100" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="236" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#facc15">JavaScript</text>
+
+      <rect x="294" y="0" width="106" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="347" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#cbd5e1">Next.js / Vite</text>
+
+      <rect x="408" y="0" width="146" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="481" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#94a3b8">UI/UX &amp; Modern CSS</text>
+    </g>
+  </g>
+
+  <!-- Line -->
+  <line x1="28" y1="116" x2="892" y2="116" stroke="#1e293b" stroke-width="0.75" stroke-dasharray="3,3"/>
+
+  <!-- Tier 02: Backend & APIs -->
+  <g transform="translate(28, 126)">
+    <rect x="0" y="4" width="176" height="24" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="12" y="20" class="mono" font-size="10.5" font-weight="700" fill="#f43f5e">02 // BACKEND &amp; API</text>
+
+    <rect x="184" y="4" width="112" height="24" rx="4" fill="#4c0519" stroke="#e11d48" stroke-width="1"/>
+    <text x="240" y="20" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#fda4af">CORE SYSTEMS</text>
+
+    <g transform="translate(310, 3)">
+      <rect x="0" y="0" width="80" height="26" rx="5" fill="#4c0519" stroke="#e11d48" stroke-width="1"/>
+      <text x="40" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#fb7185">NestJS</text>
+
+      <rect x="88" y="0" width="84" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="130" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#4ade80">Node.js</text>
+
+      <rect x="180" y="0" width="98" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="229" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#e2e8f0">Express.js</text>
+
+      <rect x="286" y="0" width="96" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="334" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#f8fafc">Socket.IO</text>
+
+      <rect x="390" y="0" width="96" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="438" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#94a3b8">REST APIs</text>
+    </g>
+  </g>
+
+  <!-- Line -->
+  <line x1="28" y1="180" x2="892" y2="180" stroke="#1e293b" stroke-width="0.75" stroke-dasharray="3,3"/>
+
+  <!-- Tier 03: Data & Persistence -->
+  <g transform="translate(28, 190)">
+    <rect x="0" y="4" width="176" height="24" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="12" y="20" class="mono" font-size="10.5" font-weight="700" fill="#60a5fa">03 // DATA &amp; SCHEMAS</text>
+
+    <rect x="184" y="4" width="112" height="24" rx="4" fill="#1e1b4b" stroke="#4338ca" stroke-width="1"/>
+    <text x="240" y="20" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#a5b4fc">PERSISTENCE</text>
+
+    <g transform="translate(310, 3)">
+      <rect x="0" y="0" width="112" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="56" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#93c5fd">PostgreSQL</text>
+
+      <rect x="120" y="0" width="102" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="171" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#cbd5e1">Prisma ORM</text>
+
+      <rect x="230" y="0" width="94" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="277" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#4ade80">MongoDB</text>
+
+      <rect x="332" y="0" width="138" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="401" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#94a3b8">Relational Modeling</text>
+    </g>
+  </g>
+
+  <!-- Line -->
+  <line x1="28" y1="244" x2="892" y2="244" stroke="#1e293b" stroke-width="0.75" stroke-dasharray="3,3"/>
+
+  <!-- Tier 04: Applied AI & Intelligence -->
+  <g transform="translate(28, 254)">
+    <rect x="0" y="4" width="176" height="24" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="12" y="20" class="mono" font-size="10.5" font-weight="700" fill="#c084fc">04 // APPLIED AI</text>
+
+    <rect x="184" y="4" width="112" height="24" rx="4" fill="#3b0764" stroke="#7e22ce" stroke-width="1"/>
+    <text x="240" y="20" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#e9d5ff">ACTIVE HORIZON</text>
+
+    <g transform="translate(310, 3)">
+      <rect x="0" y="0" width="76" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="38" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#fbbf24">Python</text>
+
+      <rect x="84" y="0" width="110" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="139" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#c084fc">Gemini API</text>
+
+      <rect x="202" y="0" width="168" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="286" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#e2e8f0">Prompt Engineering</text>
+
+      <rect x="378" y="0" width="180" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="468" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#94a3b8">LLM App Architecture</text>
+    </g>
+  </g>
+
+  <!-- Line -->
+  <line x1="28" y1="308" x2="892" y2="308" stroke="#1e293b" stroke-width="0.75" stroke-dasharray="3,3"/>
+
+  <!-- Tier 05: Infrastructure & Tools -->
+  <g transform="translate(28, 318)">
+    <rect x="0" y="4" width="176" height="24" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="12" y="20" class="mono" font-size="10.5" font-weight="700" fill="#34d399">05 // INFRA &amp; DEPLOY</text>
+
+    <rect x="184" y="4" width="112" height="24" rx="4" fill="#064e3b" stroke="#059669" stroke-width="1"/>
+    <text x="240" y="20" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#a7f3d0">PRODUCTION</text>
+
+    <g transform="translate(310, 3)">
+      <rect x="0" y="0" width="76" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="38" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#38bdf8">Docker</text>
+
+      <rect x="84" y="0" width="124" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="146" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#a7f3d0">System Design</text>
+
+      <rect x="216" y="0" width="72" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="252" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#f8fafc">Vercel</text>
+
+      <rect x="296" y="0" width="112" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="352" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#cbd5e1">Git &amp; GitHub</text>
+
+      <rect x="416" y="0" width="94" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="463" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#94a3b8">Linux / CLI</text>
+    </g>
+  </g>
+</svg>

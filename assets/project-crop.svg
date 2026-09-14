@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="crop-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e111d"/>
+      <stop offset="60%" stop-color="#090b14"/>
+      <stop offset="100%" stop-color="#05060b"/>
+    </linearGradient>
+
+    <linearGradient id="crop-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.75"/>
+      <stop offset="35%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <radialGradient id="crop-glow" cx="10%" cy="10%" r="40%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="crop-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, Menlo, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="918" height="218" rx="12" fill="url(#crop-bg)" stroke="url(#crop-border)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="916" height="216" rx="11" fill="url(#crop-grid)"/>
+  <rect x="2" y="2" width="916" height="216" rx="11" fill="url(#crop-glow)"/>
+
+  <!-- Left Accent Stripe -->
+  <rect x="1" y="1" width="4" height="218" rx="2" fill="#a855f7"/>
+
+  <!-- Top Metadata Bar -->
+  <g transform="translate(28, 20)">
+    <!-- Domain Badge -->
+    <rect x="0" y="0" width="138" height="22" rx="4" fill="#3b0764" stroke="#7e22ce" stroke-width="1"/>
+    <text x="69" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#c084fc" letter-spacing="1">APPLIED AI PIPELINE</text>
+
+    <!-- Sub-tag -->
+    <rect x="146" y="0" width="180" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="236" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="0.5">AGRITECH INTELLIGENCE</text>
+
+    <!-- Architecture Status Tag (Right) -->
+    <text x="864" y="15" text-anchor="end" class="mono" font-size="10" fill="#c084fc" letter-spacing="1">PYTHON // GEMINI MULTIMODAL</text>
+  </g>
+
+  <!-- Left Content Zone (x=28..608, safe width=580) -->
+  <g transform="translate(28, 56)">
+    <text x="0" y="24" class="sans" font-size="26" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">Crop Advisory</text>
+    <text x="0" y="52" class="sans" font-size="13.5" font-weight="500" fill="#cbd5e1">
+      Domain-specific agricultural intelligence platform delivering tailored
+    </text>
+    <text x="0" y="74" class="sans" font-size="13" font-weight="400" fill="#94a3b8">
+      farming recommendations using Python logic and Google's Gemini API.
+    </text>
+
+    <!-- Tech Stack Pills -->
+    <g transform="translate(0, 106)">
+      <!-- Python -->
+      <rect x="0" y="0" width="72" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="36" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#fbbf24">Python</text>
+
+      <!-- Gemini API -->
+      <rect x="80" y="0" width="98" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="129" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#c084fc">Gemini API</text>
+
+      <!-- Prompt Engineering -->
+      <rect x="186" y="0" width="154" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="263" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#93c5fd">Prompt Engineering</text>
+
+      <!-- Advisory Pipeline -->
+      <rect x="348" y="0" width="138" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="417" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#94a3b8">Advisory Pipeline</text>
+    </g>
+  </g>
+
+  <!-- Right Diagram Zone (x=638..888, width=250, height=146) -->
+  <g transform="translate(638, 48)">
+    <rect x="0" y="0" width="250" height="146" rx="8" fill="#080c14" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Input Parameters Node -->
+    <rect x="18" y="24" width="76" height="30" rx="4" fill="#0f172a" stroke="#fbbf24" stroke-width="1"/>
+    <text x="56" y="43" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#fbbf24">CROP DATA</text>
+
+    <line x1="94" y1="39" x2="124" y2="39" stroke="#a855f7" stroke-width="1" stroke-dasharray="2,2"/>
+
+    <!-- Gemini Engine Node -->
+    <rect x="124" y="18" width="108" height="42" rx="4" fill="#0f172a" stroke="#a855f7" stroke-width="1"/>
+    <text x="178" y="36" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#c084fc">GEMINI API</text>
+    <text x="178" y="49" text-anchor="middle" class="mono" font-size="7.5" fill="#94a3b8">LLM INFERENCE</text>
+
+    <path d="M 178 60 L 178 84" stroke="#a855f7" stroke-width="1"/>
+
+    <!-- Output Synthesis Node -->
+    <rect x="30" y="84" width="190" height="36" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="125" y="102" text-anchor="middle" class="mono" font-size="9" font-weight="600" fill="#34d399">ADVISORY SYNTHESIS</text>
+    <text x="125" y="113" text-anchor="middle" class="mono" font-size="7.5" fill="#64748b">CONTEXTUAL RECOMMENDATIONS</text>
+  </g>
+</svg>
