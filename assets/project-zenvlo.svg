@@ -42,7 +42,7 @@
   <rect x="1" y="1" width="4" height="218" rx="2" fill="#f59e0b"/>
 
   <!-- Top Metadata Bar -->
-  <g transform="translate(28, 22)">
+  <g transform="translate(28, 20)">
     <!-- Priority Badge -->
     <rect x="0" y="0" width="138" height="22" rx="4" fill="#451a03" stroke="#b45309" stroke-width="1" filter="url(#badge-glow)"/>
     <text x="69" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#fbbf24" letter-spacing="1">★ FLAGSHIP BUILD</text>
@@ -52,66 +52,68 @@
     <text x="241" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="0.5">FOUNDER &amp; FULL-STACK DEV</text>
 
     <!-- Architecture Status Tag -->
-    <text x="864" y="15" text-anchor="end" class="mono" font-size="10.5" fill="#f59e0b" letter-spacing="1">TIER-1 ARCHITECTURE // ACTIVE CORE</text>
+    <text x="864" y="15" text-anchor="end" class="mono" font-size="10" fill="#f59e0b" letter-spacing="1">TIER-1 ARCHITECTURE // ACTIVE CORE</text>
   </g>
 
-  <!-- Title & Description -->
-  <g transform="translate(28, 62)">
-    <text x="0" y="28" class="sans" font-size="28" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">Zenvlo CRM</text>
-    <text x="0" y="58" class="sans" font-size="14" font-weight="500" fill="#cbd5e1">
-      Most technically ambitious build to date — full-featured CRM platform with enterprise-ready schema design.
+  <!-- Left Content Zone (x=28..608, safe width=580) -->
+  <g transform="translate(28, 56)">
+    <!-- Title -->
+    <text x="0" y="24" class="sans" font-size="26" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">Zenvlo CRM</text>
+
+    <!-- Wrapped Description (Line 1 & Line 2) -->
+    <text x="0" y="52" class="sans" font-size="13.5" font-weight="500" fill="#cbd5e1">
+      Most technically ambitious build to date — full-featured CRM platform
     </text>
-    <text x="0" y="80" class="sans" font-size="13" font-weight="400" fill="#94a3b8">
-      Architected from the ground up: modular REST APIs, strong relational modeling, and fluid state management.
+    <text x="0" y="74" class="sans" font-size="13" font-weight="400" fill="#94a3b8">
+      engineered with modular NestJS REST APIs, PostgreSQL, and Prisma ORM.
     </text>
+
+    <!-- Tech Stack Pills -->
+    <g transform="translate(0, 106)">
+      <!-- React -->
+      <rect x="0" y="0" width="66" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="33" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#38bdf8">React</text>
+
+      <!-- TypeScript -->
+      <rect x="74" y="0" width="98" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="123" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#60a5fa">TypeScript</text>
+
+      <!-- NestJS -->
+      <rect x="180" y="0" width="74" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="217" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#f43f5e">NestJS</text>
+
+      <!-- PostgreSQL -->
+      <rect x="262" y="0" width="102" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="313" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#93c5fd">PostgreSQL</text>
+
+      <!-- Prisma -->
+      <rect x="372" y="0" width="72" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="408" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#cbd5e1">Prisma</text>
+    </g>
   </g>
 
-  <!-- Tech Stack Pills -->
-  <g transform="translate(28, 164)">
-    <!-- React -->
-    <rect x="0" y="0" width="68" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="34" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#38bdf8">React</text>
-
-    <!-- TypeScript -->
-    <rect x="76" y="0" width="102" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="127" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#60a5fa">TypeScript</text>
-
-    <!-- NestJS -->
-    <rect x="186" y="0" width="76" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="224" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#f43f5e">NestJS</text>
-
-    <!-- PostgreSQL -->
-    <rect x="270" y="0" width="106" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="323" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#93c5fd">PostgreSQL</text>
-
-    <!-- Prisma -->
-    <rect x="384" y="0" width="74" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="421" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#cbd5e1">Prisma</text>
-  </g>
-
-  <!-- Visual Architecture Graphic on Right -->
-  <g transform="translate(680, 52)">
+  <!-- Right Diagram Zone (x=638..888, width=250, height=146) -->
+  <g transform="translate(638, 48)">
     <!-- Frame Box -->
-    <rect x="0" y="0" width="210" height="136" rx="8" fill="#080c14" stroke="#1e293b" stroke-width="1"/>
+    <rect x="0" y="0" width="250" height="146" rx="8" fill="#080c14" stroke="#1e293b" stroke-width="1"/>
     
-    <!-- Schema / Relational Micro Nodes -->
     <!-- Client Node -->
-    <rect x="16" y="18" width="54" height="28" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
-    <text x="43" y="36" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#38bdf8">CLIENT</text>
+    <rect x="16" y="20" width="68" height="30" rx="4" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+    <text x="50" y="39" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#38bdf8">CLIENT</text>
 
     <!-- Connection Line -->
-    <line x1="70" y1="32" x2="98" y2="32" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/>
+    <line x1="84" y1="35" x2="114" y2="35" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/>
 
     <!-- NestJS API Gateway Node -->
-    <rect x="98" y="18" width="94" height="28" rx="4" fill="#0f172a" stroke="#f43f5e" stroke-width="1"/>
-    <text x="145" y="36" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#f43f5e">NESTJS CORE</text>
+    <rect x="114" y="20" width="120" height="30" rx="4" fill="#0f172a" stroke="#f43f5e" stroke-width="1"/>
+    <text x="174" y="39" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#f43f5e">NESTJS BACKEND</text>
 
     <!-- Connection Down to DB -->
-    <path d="M 145 46 L 145 74" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2,2"/>
+    <path d="M 174 50 L 174 80" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2,2"/>
 
     <!-- Prisma + Postgres Node -->
-    <rect x="52" y="74" width="140" height="42" rx="4" fill="#0f172a" stroke="#f59e0b" stroke-width="1"/>
-    <text x="122" y="93" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#fbbf24">POSTGRES + PRISMA</text>
-    <text x="122" y="107" text-anchor="middle" class="mono" font-size="8" fill="#64748b">RELATIONAL SCHEMAS</text>
+    <rect x="30" y="80" width="190" height="46" rx="4" fill="#0f172a" stroke="#f59e0b" stroke-width="1"/>
+    <text x="125" y="100" text-anchor="middle" class="mono" font-size="9.5" font-weight="700" fill="#fbbf24">POSTGRESQL + PRISMA</text>
+    <text x="125" y="116" text-anchor="middle" class="mono" font-size="8" fill="#64748b">RELATIONAL SCHEMAS</text>
   </g>
 </svg>

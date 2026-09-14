@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 190" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="100%">
   <defs>
     <linearGradient id="crop-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0e111d"/>
@@ -28,12 +28,12 @@
   </style>
 
   <!-- Container -->
-  <rect x="1" y="1" width="918" height="188" rx="12" fill="url(#crop-bg)" stroke="url(#crop-border)" stroke-width="1.5"/>
-  <rect x="2" y="2" width="916" height="186" rx="11" fill="url(#crop-grid)"/>
-  <rect x="2" y="2" width="916" height="186" rx="11" fill="url(#crop-glow)"/>
+  <rect x="1" y="1" width="918" height="218" rx="12" fill="url(#crop-bg)" stroke="url(#crop-border)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="916" height="216" rx="11" fill="url(#crop-grid)"/>
+  <rect x="2" y="2" width="916" height="216" rx="11" fill="url(#crop-glow)"/>
 
   <!-- Left Accent Stripe -->
-  <rect x="1" y="1" width="4" height="188" rx="2" fill="#a855f7"/>
+  <rect x="1" y="1" width="4" height="218" rx="2" fill="#a855f7"/>
 
   <!-- Top Metadata Bar -->
   <g transform="translate(28, 20)">
@@ -46,58 +46,59 @@
     <text x="236" y="15" text-anchor="middle" class="mono" font-size="10" font-weight="600" fill="#94a3b8" letter-spacing="0.5">AGRITECH INTELLIGENCE</text>
 
     <!-- Architecture Status Tag (Right) -->
-    <text x="864" y="15" text-anchor="end" class="mono" font-size="10.5" fill="#c084fc" letter-spacing="1">PYTHON // GEMINI MULTIMODAL</text>
+    <text x="864" y="15" text-anchor="end" class="mono" font-size="10" fill="#c084fc" letter-spacing="1">PYTHON // GEMINI MULTIMODAL</text>
   </g>
 
-  <!-- Title & Description -->
+  <!-- Left Content Zone (x=28..608, safe width=580) -->
   <g transform="translate(28, 56)">
-    <text x="0" y="26" class="sans" font-size="26" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">Crop Advisory</text>
-    <text x="0" y="52" class="sans" font-size="14" font-weight="500" fill="#cbd5e1">
-      Domain-specific agricultural intelligence tool delivering tailored farming recommendations and diagnostic guidance.
+    <text x="0" y="24" class="sans" font-size="26" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">Crop Advisory</text>
+    <text x="0" y="52" class="sans" font-size="13.5" font-weight="500" fill="#cbd5e1">
+      Domain-specific agricultural intelligence platform delivering tailored
     </text>
-    <text x="0" y="72" class="sans" font-size="13" font-weight="400" fill="#94a3b8">
-      Engineered with Python backend logic interfacing Google's Gemini API for prompt-driven agronomic synthesis.
+    <text x="0" y="74" class="sans" font-size="13" font-weight="400" fill="#94a3b8">
+      farming recommendations using Python logic and Google's Gemini API.
     </text>
+
+    <!-- Tech Stack Pills -->
+    <g transform="translate(0, 106)">
+      <!-- Python -->
+      <rect x="0" y="0" width="72" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="36" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#fbbf24">Python</text>
+
+      <!-- Gemini API -->
+      <rect x="80" y="0" width="98" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="129" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#c084fc">Gemini API</text>
+
+      <!-- Prompt Engineering -->
+      <rect x="186" y="0" width="154" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="263" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#93c5fd">Prompt Engineering</text>
+
+      <!-- Advisory Pipeline -->
+      <rect x="348" y="0" width="138" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="417" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#94a3b8">Advisory Pipeline</text>
+    </g>
   </g>
 
-  <!-- Tech Stack Pills -->
-  <g transform="translate(28, 142)">
-    <!-- Python -->
-    <rect x="0" y="0" width="76" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="38" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#fbbf24">Python</text>
-
-    <!-- Google Gemini API -->
-    <rect x="84" y="0" width="144" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="156" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#c084fc">Google Gemini API</text>
-
-    <!-- Prompt Engineering -->
-    <rect x="236" y="0" width="156" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="314" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#93c5fd">Prompt Engineering</text>
-
-    <!-- Domain Synthesis -->
-    <rect x="400" y="0" width="124" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="462" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#94a3b8">Data Synthesis</text>
-  </g>
-
-  <!-- Visual AI Diagram Graphic on Right -->
-  <g transform="translate(690, 46)">
-    <rect x="0" y="0" width="200" height="114" rx="8" fill="#080c14" stroke="#1e293b" stroke-width="1"/>
+  <!-- Right Diagram Zone (x=638..888, width=250, height=146) -->
+  <g transform="translate(638, 48)">
+    <rect x="0" y="0" width="250" height="146" rx="8" fill="#080c14" stroke="#1e293b" stroke-width="1"/>
     
     <!-- Input Parameters Node -->
-    <rect x="14" y="20" width="60" height="26" rx="4" fill="#0f172a" stroke="#fbbf24" stroke-width="1"/>
-    <text x="44" y="37" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#fbbf24">CROP DATA</text>
+    <rect x="18" y="24" width="76" height="30" rx="4" fill="#0f172a" stroke="#fbbf24" stroke-width="1"/>
+    <text x="56" y="43" text-anchor="middle" class="mono" font-size="8.5" font-weight="700" fill="#fbbf24">CROP DATA</text>
 
-    <line x1="74" y1="33" x2="98" y2="33" stroke="#a855f7" stroke-width="1" stroke-dasharray="2,2"/>
+    <line x1="94" y1="39" x2="124" y2="39" stroke="#a855f7" stroke-width="1" stroke-dasharray="2,2"/>
 
     <!-- Gemini Engine Node -->
-    <rect x="98" y="16" width="88" height="34" rx="4" fill="#0f172a" stroke="#a855f7" stroke-width="1"/>
-    <text x="142" y="32" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#c084fc">GEMINI API</text>
-    <text x="142" y="44" text-anchor="middle" class="mono" font-size="7.5" fill="#94a3b8">LLM INFERENCE</text>
+    <rect x="124" y="18" width="108" height="42" rx="4" fill="#0f172a" stroke="#a855f7" stroke-width="1"/>
+    <text x="178" y="36" text-anchor="middle" class="mono" font-size="9" font-weight="700" fill="#c084fc">GEMINI API</text>
+    <text x="178" y="49" text-anchor="middle" class="mono" font-size="7.5" fill="#94a3b8">LLM INFERENCE</text>
 
-    <path d="M 142 50 L 142 70" stroke="#a855f7" stroke-width="1"/>
+    <path d="M 178 60 L 178 84" stroke="#a855f7" stroke-width="1"/>
 
     <!-- Output Synthesis Node -->
-    <rect x="40" y="70" width="146" height="28" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="113" y="88" text-anchor="middle" class="mono" font-size="8.5" fill="#34d399">ADVISORY REPORT SYNTHESIS</text>
+    <rect x="30" y="84" width="190" height="36" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="125" y="102" text-anchor="middle" class="mono" font-size="9" font-weight="600" fill="#34d399">ADVISORY SYNTHESIS</text>
+    <text x="125" y="113" text-anchor="middle" class="mono" font-size="7.5" fill="#64748b">CONTEXTUAL RECOMMENDATIONS</text>
   </g>
 </svg>
