@@ -128,16 +128,16 @@
     <!-- Card 1: Production Focus -->
     <rect x="0" y="0" width="270" height="82" rx="8" fill="#0a0f18" stroke="#1e293b" stroke-width="1" filter="url(#card-shadow)"/>
     <rect x="0" y="0" width="3" height="82" rx="1" fill="#38bdf8"/>
-    <text x="18" y="24" class="mono" font-size="10.5" font-weight="700" fill="#38bdf8" letter-spacing="1">01 // PRODUCTION BUILDS</text>
-    <text x="18" y="44" class="sans" font-size="12" font-weight="600" fill="#e2e8f0">End-to-End Applications</text>
-    <text x="18" y="64" class="sans" font-size="11" fill="#64748b">Designing schema-first scalable systems</text>
+    <text x="18" y="24" class="mono" font-size="10.5" font-weight="700" fill="#38bdf8" letter-spacing="1">01 // FULL-STACK BUILDS</text>
+    <text x="18" y="44" class="sans" font-size="12" font-weight="600" fill="#e2e8f0">End-to-End Web Apps</text>
+    <text x="18" y="64" class="sans" font-size="11" fill="#64748b">Designing clean schemas &amp; modular code</text>
 
     <!-- Card 2: Technical Focus -->
     <rect x="288" y="0" width="270" height="82" rx="8" fill="#0a0f18" stroke="#1e293b" stroke-width="1" filter="url(#card-shadow)"/>
     <rect x="288" y="0" width="3" height="82" rx="1" fill="#818cf8"/>
     <text x="306" y="24" class="mono" font-size="10.5" font-weight="700" fill="#818cf8" letter-spacing="1">02 // APPLIED AI &amp; LLMS</text>
     <text x="306" y="44" class="sans" font-size="12" font-weight="600" fill="#e2e8f0">Practical Intelligence</text>
-    <text x="306" y="64" class="sans" font-size="11" fill="#64748b">Moving beyond simple wrappers into utility</text>
+    <text x="306" y="64" class="sans" font-size="11" fill="#64748b">Building functional workflows with APIs</text>
 
     <!-- Card 3: Philosophy Focus -->
     <rect x="576" y="0" width="272" height="82" rx="8" fill="#0a0f18" stroke="#1e293b" stroke-width="1" filter="url(#card-shadow)"/>

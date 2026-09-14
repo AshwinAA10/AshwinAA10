@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Ashwin A A - Full-Stack Engineer & Systems Builder" width="100%" />
+<img src="./assets/hero.svg" alt="Ashwin A A — Full-Stack Engineer &amp; Systems Builder" width="100%" />
 
 <p align="center">
   <a href="https://ashwinaa.vercel.app"><b>PORTFOLIO</b></a> &nbsp;·&nbsp;
@@ -9,57 +9,53 @@
   <a href="mailto:ashwinaa2005@gmail.com"><b>EMAIL DIRECT</b></a>
 </p>
 
-<img src="./assets/divider.svg" alt="Divider" width="100%" />
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 </div>
 
 ### 01 // SELECTED BUILDS
 
-A curated index of production applications, real-time systems, and applied AI tools built to solve concrete operational problems.
+A curated index of full-stack web applications, real-time dispatch systems, and applied AI tools built to solve concrete operational problems.
 
 <br/>
 
 <!-- Flagship: Zenvlo CRM -->
 <a href="https://github.com/AshwinAA10">
-  <img src="./assets/project-zenvlo.svg" alt="Zenvlo CRM - Flagship Build" width="100%" />
+  <img src="./assets/project-zenvlo.svg" alt="Zenvlo CRM — Flagship full-stack project card" width="100%" />
 </a>
 
-<br/>
 <br/>
 
 <!-- PersonalScheduler -->
 <a href="https://github.com/AshwinAA10/PersonalScheduler">
-  <img src="./assets/project-scheduler.svg" alt="PersonalScheduler - Real-time WhatsApp Notification System" width="100%" />
+  <img src="./assets/project-scheduler.svg" alt="PersonalScheduler — Real-time WhatsApp notification system project card" width="100%" />
 </a>
 
-<br/>
 <br/>
 
 <!-- Crop Advisory -->
 <a href="https://github.com/AshwinAA10/crop_advisory">
-  <img src="./assets/project-crop.svg" alt="Crop Advisory - Python & Gemini AI Agricultural Intelligence" width="100%" />
+  <img src="./assets/project-crop.svg" alt="Crop Advisory — Python and Gemini AI agricultural intelligence project card" width="100%" />
 </a>
 
-<br/>
 <br/>
 
 <!-- StoreMind -->
 <a href="https://github.com/AshwinAA10/StoreMind">
-  <img src="./assets/project-storemind.svg" alt="StoreMind - Inventory Management System" width="100%" />
+  <img src="./assets/project-storemind.svg" alt="StoreMind — Inventory management platform project card" width="100%" />
 </a>
 
-<br/>
 <br/>
 
 <!-- MediAlert -->
 <a href="https://github.com/AshwinAA10/MediAlert">
-  <img src="./assets/project-medialert.svg" alt="MediAlert - Healthcare Reminder System" width="100%" />
+  <img src="./assets/project-medialert.svg" alt="MediAlert — Healthcare regimen reminder system project card" width="100%" />
 </a>
 
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" alt="Divider" width="100%" />
+  <img src="./assets/divider.svg" alt="" width="100%" />
 </div>
 
 ### 02 // SYSTEM ARCHITECTURE & TECHNICAL STACK
@@ -69,13 +65,13 @@ Technologies organized by runtime tier and actual application implementation. Da
 <br/>
 
 <div align="center">
-  <img src="./assets/stack.svg" alt="Ashwin A A - Engineering Stack & Architecture" width="100%" />
+  <img src="./assets/stack.svg" alt="Ashwin A A — Technical stack and architecture blueprint" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" alt="Divider" width="100%" />
+  <img src="./assets/divider.svg" alt="" width="100%" />
 </div>
 
 ### 03 // TRAJECTORY & CURRENT FOCUS
@@ -90,7 +86,7 @@ WHAT I HAVE BUILT
 WHAT I AM ACTIVELY LEARNING
 ├── System Design & High-Throughput Backend Architecture (going beyond basic CRUD)
 ├── Dockerized microservices & production deployment reliability
-└── Applied AI Engineering - building robust retrieval & context pipelines, not just API wrappers
+└── Applied AI Engineering — building robust retrieval & context pipelines, not just API wrappers
 
 WHAT I AM TARGETING NEXT
 ├── Shipping an end-to-end, production-grade full-stack platform independently
@@ -98,40 +94,47 @@ WHAT I AM TARGETING NEXT
 ```
 
 <div align="center">
-  <img src="./assets/divider.svg" alt="Divider" width="100%" />
+  <img src="./assets/divider.svg" alt="" width="100%" />
 </div>
 
 ### 04 // EDUCATION & CREDENTIALS
 
 Compact overview of academic grounding, professional certifications, and industry research:
 
-- **B.Sc Computer Science** - Bharathiar University (CGPA 7.2)
-- **Full Stack Development (MERN)** - Amypo Technologies
-- **Google Data Analytics** - Professional Certificate
-- **AWS Cloud Technical Essentials** - Specialization
-- **Oracle Cloud Databases** - Certified Specialist
-- **MongoDB Certifications** - Associate Developer
-- **UI/UX Design Specialization** - California Institute of the Arts (Coursera)
-- **IRJET Published Research** - Published academic paper on SEO & profile optimization architectures
-- **Industry Internship** - Seasana Industries / Machinery
+- **B.Sc Computer Science** — Bharathiar University *(CGPA 7.2)*
+- **Full Stack Development (MERN)** — Amypo Technologies
+- **Google Data Analytics** — Professional Certificate
+- **AWS Cloud Technical Essentials** — Specialization
+- **Oracle Cloud Databases** — Certified Specialist
+- **MongoDB Certifications** — Associate Developer
+- **UI/UX Design Specialization** — California Institute of the Arts (Coursera)
+- **IRJET Published Research** — Published academic paper on SEO & profile optimization architectures
+- **Industry Internship** — Seasana Industries / Machinery
 
 <div align="center">
-  <img src="./assets/divider.svg" alt="Divider" width="100%" />
+  <img src="./assets/divider.svg" alt="" width="100%" />
 </div>
 
 ### 05 // OUTSIDE THE CODEBASE
 
 When I'm away from the terminal:
-- **Football** - Fast-paced tactical play, teamwork, and quick decision-making under pressure.
-- **Trekking** - Exploring mountain trails, testing endurance, and finding mental clarity.
-- **Travelling** - Experiencing unfamiliar terrain, regional cultures, and different perspectives.
+- **Football** — Fast-paced tactical play, teamwork, and quick decision-making under pressure.
+- **Trekking** — Exploring mountain trails, testing endurance, and finding mental clarity.
+- **Travelling** — Experiencing unfamiliar terrain, regional cultures, and different perspectives.
 
 > *"I would rather ship a compact, reliable system that works than get lost in endless blueprints for one that never launches. The craft is in turning intention into running software."*
 
 <div align="center">
-  <img src="./assets/divider.svg" alt="Divider" width="100%" />
+  <img src="./assets/divider.svg" alt="" width="100%" />
 </div>
 
 <div align="center">
-  <img src="./assets/footer.svg" alt="Ashwin A A - Footer" width="100%" />
+  <img src="./assets/footer.svg" alt="Ashwin A A — Developer directory and contact interface" width="100%" />
+
+  <p align="center">
+    <a href="https://ashwinaa.vercel.app"><b>Portfolio</b></a> &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/ashwinaa10/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+    <a href="https://github.com/AshwinAA10"><b>GitHub</b></a> &nbsp;·&nbsp;
+    <a href="mailto:ashwinaa2005@gmail.com"><b>Email Direct</b></a>
+  </p>
 </div>

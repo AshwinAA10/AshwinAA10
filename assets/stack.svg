@@ -52,20 +52,20 @@
 
     <!-- Tech Pills -->
     <g transform="translate(310, 3)">
-      <rect x="0" y="0" width="76" height="26" rx="5" fill="#082f49" stroke="#0284c7" stroke-width="1"/>
-      <text x="38" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#38bdf8">React.js</text>
+      <rect x="0" y="0" width="66" height="26" rx="5" fill="#082f49" stroke="#0284c7" stroke-width="1"/>
+      <text x="33" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#38bdf8">React</text>
 
-      <rect x="84" y="0" width="104" height="26" rx="5" fill="#082f49" stroke="#0284c7" stroke-width="1"/>
-      <text x="136" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#60a5fa">TypeScript</text>
+      <rect x="74" y="0" width="104" height="26" rx="5" fill="#082f49" stroke="#0284c7" stroke-width="1"/>
+      <text x="126" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#60a5fa">TypeScript</text>
 
-      <rect x="196" y="0" width="100" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-      <text x="246" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#facc15">JavaScript</text>
+      <rect x="186" y="0" width="100" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="236" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#facc15">JavaScript</text>
 
-      <rect x="304" y="0" width="106" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-      <text x="357" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#cbd5e1">Next.js / Vite</text>
+      <rect x="294" y="0" width="106" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="347" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#cbd5e1">Next.js / Vite</text>
 
-      <rect x="418" y="0" width="136" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-      <text x="486" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#94a3b8">UI/UX &amp; Modern CSS</text>
+      <rect x="408" y="0" width="146" height="26" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text x="481" y="17" text-anchor="middle" class="mono" font-size="11" font-weight="500" fill="#94a3b8">UI/UX &amp; Modern CSS</text>
     </g>
   </g>
 
